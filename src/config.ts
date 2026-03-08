@@ -1,49 +1,53 @@
 export const siteConfig = {
   name: "Sergio Siclari",
   title: "Backend Developer | DevOps",
-  description: "Portfolio website of Sergio Siclari",
+  description: "Portfolio of Sergio Siclari",
   accentColor: "#1d4ed8",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "",
+    email: "",
     github: "https://github.com/Sergio-dot",
+    linkedin: "",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Go", "Docker", "Kubernetes"],
+    "Backend developer focused on automation, infrastructure, and self-hosted systems. I enjoy building reliable services and understanding how software behaves in production environments.",
+
+  interests: [
+    "Software Development",
+    "Infrastructure as Code",
+    "Containerized workloads",
+    "Automation",
+    "Self-hosted platforms",
+  ],
+
+  skills: {
+    languages: ["Go"],
+    infrastructure: ["Docker", "Kubernetes"],
+    automation: ["Ansible"],
+    systems: ["Linux"],
+  },
+
   projects: [
     {
-      name: "Project1",
+      name: "Ansible Infrastructure Automation",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit!",
-      link: "",
-      skills: ["Skill1", "Skill2", "Skill3"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with Skill1 & Skill2",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit!",
-      link: "",
-      skills: ["Skill1", "Skill2", "Skill3"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit!",
-      link: "",
-      skills: ["Skill1", "Skill2", "Skill3"],
-    },
+        "Automation playbooks used to provision and maintain services in my homelab environment, including container orchestration and configuration management.",
+      link: "https://github.com/Sergio-dot/homelab-infra",
+      skills: ["Ansible", "Infrastructure as Code"],
+    }
   ],
+
   experience: [
     {
       company: "Experience 2",
       title: "Backend Developer",
       dateRange: "Jan 2026 - Present",
       bullets: [
-        "Bullet 1",
-        "Bullet 2",
-        "Bullet 3",
-      ],
+        "Developed backend services and APIs",
+        "Maintained containerized applications in Docker environments",
+        "Automated infrastructure tasks using configuration management tools"
+      ]
     },
     {
       company: "Experience 1",
@@ -56,15 +60,6 @@ export const siteConfig = {
       ],
     },
   ],
-  education: [
-    {
-      school: "Education1",
-      degree: "Bachelor's Degree in Computer Science",
-      achievements: [
-        "Bullet 1",
-        "Bullet 2",
-        "Bullet 3",
-      ],
-    }
-  ],
+
+  education: [],
 };
