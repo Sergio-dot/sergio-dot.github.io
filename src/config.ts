@@ -21,12 +21,13 @@ export const siteConfig = {
     "Self-hosted platforms",
   ],
 
-  skills: {
-    languages: ["Go"],
-    infrastructure: ["Docker", "Kubernetes"],
-    automation: ["Ansible"],
-    systems: ["Linux"],
-  },
+  skills: [
+    "Go",
+    "Docker",
+    "Kubernetes",
+    "Ansible",
+    "Linux"
+  ],
 
   projects: [
     {
