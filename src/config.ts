@@ -1,32 +1,35 @@
 export const siteConfig = {
   name: "Sergio Siclari",
   title: "Backend Developer | DevOps",
-  description: "Portfolio of Sergio Siclari",
+  description: "Portfolio of Sergio Siclari — Backend Developer and DevOps Engineer based in Milan",
   accentColor: "#1d4ed8",
 
   social: {
     email: "",
     github: "https://github.com/Sergio-dot",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/sergio-s-60225b15b/",
   },
 
   aboutMe:
-    "Backend developer focused on automation, infrastructure, and self-hosted systems. I enjoy building reliable services and understanding how software behaves in production environments.",
+    "Backend developer and open-source enthusiast. When I'm not writing Go at work, I'm usually tinkering with my homelab. I enjoy automating things that shouldn't be manual, building tools that make life easier, and learning how systems work under the hood.",
 
   interests: [
     "Software Development",
     "Infrastructure as Code",
-    "Containerized workloads",
+    "Containerized Workloads",
     "Automation",
-    "Self-hosted platforms",
+    "Self-hosted Platforms",
   ],
 
   skills: [
     "Go",
     "Docker",
     "Kubernetes",
+    "ArgoCD",
+    "GitOps",
     "Ansible",
-    "Linux"
+    "Linux",
+    "CI/CD",
   ],
 
   projects: [
@@ -36,28 +39,30 @@ export const siteConfig = {
         "Automation playbooks used to provision and maintain services in my homelab environment, including container orchestration and configuration management.",
       link: "https://github.com/Sergio-dot/homelab-infra",
       skills: ["Ansible", "Infrastructure as Code"],
-    }
+    },
   ],
 
   experience: [
     {
-      company: "Experience 2",
+      company: "Wopta",
       title: "Backend Developer",
       dateRange: "Jan 2026 - Present",
       bullets: [
-        "Developed backend services and APIs",
-        "Maintained containerized applications in Docker environments",
-        "Automated infrastructure tasks using configuration management tools"
-      ]
+        "Developing backend services and APIs in Go for an insurtech MGA platform",
+        "Designing and implementing microservices handling insurance product workflows",
+        "Working with containerized deployments and cloud-native infrastructure",
+      ],
     },
     {
-      company: "Experience 1",
-      title: "DevOps",
+      company: "Sky Italia (via Alten Italia / SSI Group)",
+      title: "DevOps Engineer — Consultant",
       dateRange: "Nov 2023 - Dec 2025",
       bullets: [
-        "Bullet 1",
-        "Bullet 2",
-        "Bullet 3",
+        "Part of the DevOps operations team ensuring distribution platform stability and uptime",
+        "Provided 24/7 on-call support, triaging incidents and driving resolution across services",
+        "Supported releases and migrations to ensure minimal downtime and smooth rollouts",
+        "Managed containerized workloads with Docker and Kubernetes across staging and production environments",
+        "Built internal CLI tools in Go to automate repetitive operational tasks and reduce incident risks",
       ],
     },
   ],
